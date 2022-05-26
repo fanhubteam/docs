@@ -8,7 +8,7 @@ Para cada parceiro comercial é feito um cadastro especifico para tamanhos de im
  
 # Código para parceiros
  
-É necessário inserir o script abaixo em todas as páginas onde serão apresentados anúncios da rede de display da FanHub.
+Adicione o código abaixo antos do fechamento da tag `</body>` do seu site
  
 ```
 <script>
@@ -23,6 +23,8 @@ Para cada parceiro comercial é feito um cadastro especifico para tamanhos de im
    }(document);
 </script>
 ```
+
+Esse script é responsavel por verificar quais `tipos de anuncios` estão disponiveis em seu site, e fazer a entrega nos locais demarcados
  
 # Tipos de anúncios
  
@@ -30,9 +32,9 @@ Os tipos de anúncios especificam os parâmetros de um anúncio para determinar 
  
 Os tipos de anúncios são registrados previamente com o time de Engenharia da FanHub. Entre em contato conosco para saber quais tipos de anúncios estão disponíveis para o seu site.
  
-Depois de inserir o código para parceiros` nas paginas onde serão exibidos anúncios da rede de display da FanHub, use o exemplo abaixo para adicionar o HTML de display em cada bloco de anuncio disponível no seu site.
+Depois de inserir o `código para parceiros` nas paginas onde serão exibidos anúncios da rede de display da FanHub, use o exemplo abaixo para adicionar o HTML de demarcação de cada bloco de `tipo de anuncio` disponível para o seu site.
  
-Tomando como exemplo que voce é o parceiro `parceiro-teste` e que voce recebeu os tipos de anuncios `site-square-banner` e `site-full-banner` para adicionar na sua pagina, o exemplo do HTML é:
+Tomando como exemplo que você é o parceiro `parceiro-teste` e que você recebeu os tipos de anuncios `site-square-banner` e `site-full-banner` para adicionar na sua pagina, os seus blocos de demarcação em HTML ficariam como abaixo:
  
 ```
 <div data-fanhub-publisher="parceiro-teste" data-fanhub-type="site-square-banner"></div>
