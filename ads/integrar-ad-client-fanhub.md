@@ -12,15 +12,15 @@ Adicione o código abaixo antes do fechamento da tag `</body>` do seu site.
  
 ```
 <script>
-   !function (e, n) {
-   (n = e.createElement("script")).type = "text/javascript", n.async = !0, n.onload = function () {
-       ethicalads.wait.then(fn)
-   }, n.src = "https://script.fanhub.com.br/inject.min.js", e.getElementsByTagName("head")[0].appendChild(n), setTimeout(() => {
-       (console.log("undefined" == typeof fanhub), "undefined" == typeof fanhub) && document.querySelectorAll("[data-fanhub-publisher]").forEach(function (e, n) {
-       e.innerHTML = "Por favor, desative o seu Ad Block!"
-       })
-   }, 1e3)
-   }(document);
+!function (e, n) {
+    (n = e.createElement("script")).type = "text/javascript", n.async = !0, n.onload = function () {
+      fanhub.wait.then(e)
+    }, n.src = "https://script.fanhub.com.br/inject.min.js", e.getElementsByTagName("head")[0].appendChild(n), setTimeout(() => {
+      (console.log("undefined" == typeof fanhub), "undefined" == typeof fanhub) && document.querySelectorAll("[data-fanhub-publisher]").forEach(function (e, n) {
+        e.innerHTML = "Por favor desative o seu Ad Block!"
+      })
+    }, 1e3)
+  }(document);
 </script>
 ```
 
@@ -43,7 +43,7 @@ Tomando como exemplo que você é o parceiro `parceiro-teste` e que você recebe
 <div data-fanhub-publisher="parceiro-teste" data-fanhub-type="site-full-banner"></div>
 ```
 
-Veja um exemplo de uma pagina integrada com o ad-cliente [clicando aqui] (https://github.com/fanhubteam/docs/blob/master/ads/exemplo-integrar-ad-client.html)
+Veja um exemplo de uma pagina integrada com o ad-cliente [clicando aqui](https://github.com/fanhubteam/docs/blob/master/ads/exemplo-integrar-ad-client.html)
  
 # O que acontece quando um anuncio é veiculado para um visitante do meu site?
  
