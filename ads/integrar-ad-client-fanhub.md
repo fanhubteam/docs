@@ -14,7 +14,7 @@ Adicione o código abaixo antos do fechamento da tag `</body>` do seu site
 <script>
    !function (e, n) {
    (n = e.createElement("script")).type = "text/javascript", n.async = !0, n.onload = function () {
-       ethicalads.wait.then(fn)
+       ethicalads.wait.then(n)
    }, n.src = "https://script.fanhub.com.br/inject.min.js", e.getElementsByTagName("head")[0].appendChild(n), setTimeout(() => {
        (console.log("undefined" == typeof fanhub), "undefined" == typeof fanhub) && document.querySelectorAll("[data-fanhub-publisher]").forEach(function (e, n) {
        e.innerHTML = "Por favor, desative o seu Ad Block!"
