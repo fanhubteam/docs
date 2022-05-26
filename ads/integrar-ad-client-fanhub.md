@@ -36,12 +36,12 @@ Tomando como exemplo que voce é o parceiro `parceiro-teste` e que voce recebeu 
  
 ```
 <div data-fanhub-publisher="parceiro-teste" data-fanhub-type="site-square-banner"></div>
- 
-...
- 
-<div data-fanhub-publisher="fanhubads" data-fanhub-type="site-full-banner"></div>
- 
 ```
+``` 
+<div data-fanhub-publisher="parceiro-teste" data-fanhub-type="site-full-banner"></div>
+```
+
+Veja um exemplo de uma pagina integrada com o ad-cliente [clicando aqui](https://github.com/fanhubteam/docs/blob/master/ads/exemplo-integrar-ad-client.html)
  
 # O que acontece quando um anuncio é veiculado para um visitante do meu site?
  
