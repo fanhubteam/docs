@@ -43,7 +43,7 @@ Tomando como exemplo que você é o parceiro `parceiro-teste` e que você recebe
 <div data-fanhub-publisher="parceiro-teste" data-fanhub-type="site-full-banner"></div>
 ```
 
-Veja um exemplo de uma pagina integrada com o ad-cliente [clicando aqui](https://github.com/fanhubteam/docs/blob/master/ads/exemplo-integrar-ad-client.html)
+Veja um exemplo de uma pagina integrada com o ad-client [clicando aqui](https://github.com/fanhubteam/docs/blob/master/ads/exemplo-integrar-ad-client.html)
  
 # O que acontece quando um anuncio é veiculado para um visitante do meu site?
  
