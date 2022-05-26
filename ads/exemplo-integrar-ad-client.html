@@ -16,14 +16,14 @@
 
       <script>
       !function (e, n) {
-        (n = e.createElement("script")).type = "text/javascript", n.async = !0, n.onload = function () {
-          ethicalads.wait.then(e)
-        }, n.src = "https://script.fanhub.com.br/inject.min.js", e.getElementsByTagName("head")[0].appendChild(n), setTimeout(() => {
-          (console.log("undefined" == typeof fanhub), "undefined" == typeof fanhub) && document.querySelectorAll("[data-fanhub-publisher]").forEach(function (e, n) {
-            e.innerHTML = "Por favor desative o seu Ad Block!"
-          })
-        }, 1e3)
-      }(document);
+          (n = e.createElement("script")).type = "text/javascript", n.async = !0, n.onload = function () {
+            fanhub.wait.then(e)
+          }, n.src = "https://script.fanhub.com.br/inject.min.js", e.getElementsByTagName("head")[0].appendChild(n), setTimeout(() => {
+            (console.log("undefined" == typeof fanhub), "undefined" == typeof fanhub) && document.querySelectorAll("[data-fanhub-publisher]").forEach(function (e, n) {
+              e.innerHTML = "Por favor desative o seu Ad Block!"
+            })
+          }, 1e3)
+        }(document);
       </script>
     </div>
   </body>
