@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>exemplo-integrar-ad-client</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Exemplo de integração com ad-client da FanHub</h1>
+      <p>Abra o codigo fonte dessa página para visualizar o exemplo</p>
+
+      <div data-fanhub-publisher="fanhubads" data-fanhub-type="image-350-300"></div>
+      
+      <hr>
+      
+      <div data-fanhub-publisher="fanhubads" data-fanhub-type="image-600-130"></div>
+
+
+      <script>
+      !function (e, n) {
+        (n = e.createElement("script")).type = "text/javascript", n.async = !0, n.onload = function () {
+          ethicalads.wait.then(fn)
+        }, n.src = "https://script.fanhub.com.br/inject.min.js", e.getElementsByTagName("head")[0].appendChild(n), setTimeout(() => {
+          (console.log("undefined" == typeof fanhub), "undefined" == typeof fanhub) && document.querySelectorAll("[data-fanhub-publisher]").forEach(function (e, n) {
+            e.innerHTML = "Por favor desative o seu Ad Block!"
+          })
+        }, 1e3)
+      }(document);
+      </script>
+    </div>
+  </body>
+</html>
