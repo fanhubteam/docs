@@ -45,7 +45,7 @@ Veja um exemplo de uma pagina integrada com o ad-cliente [clicando aqui](https:/
  
 # O que acontece quando um anuncio é veiculado para um visitante do meu site?
  
-Sempre que um anúncio é injetado para um visitante do seu site, duas ações serão executadas:
+Sempre que um anúncio é entregue para um visitante do seu site, as ações abaixo são executadas:
  
 ## Quando o visitante visualizar o anúncio
  
